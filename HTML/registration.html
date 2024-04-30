@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Registration Form -->
+<div class="container">
+    <h2>User Registration</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" class="form-control" id="username" name="username" required minlength="3" maxlength="20">
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password" name="password" required minlength="6">
+        </div>
+        <div class="form-group">
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" class="form-control" id="confirm-password" name="confirm-password" required minlength="6" equalTo="#password">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label>How did you hear about us?</label><br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="hear-about" id="hear-radio1" value="social-media" required>
+                <label class="form-check-label" for="hear-radio1">Social Media</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="hear-about" id="hear-radio2" value="friend" required>
+                <label class="form-check-label" for="hear-radio2">From a Friend</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="hear-about" id="hear-radio3" value="website" required>
+                <label class="form-check-label" for="hear-radio3">Website</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="hear-about" id="hear-radio4" value="advertisement" required>
+                <label class="form-check-label" for="hear-radio4">Advertisement</label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!-- Bootstrap JS (optional) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
