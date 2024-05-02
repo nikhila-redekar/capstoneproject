@@ -36,10 +36,7 @@
                 <option value="canada">Canada</option>
             </select>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-</div>
-
 <!-- Cart Items Table -->
 <div class="container mt-4">
     <h2>Cart Items</h2>
@@ -73,6 +70,56 @@
 
 <!-- Bootstrap JS (optional) -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<form>
+    <!-- More form fields for address, email, etc. -->
+    <button type="submit" class="btn btn-primary">Select you payment Method</button>
+  </form>
+</div>
+</div>
+</div>
 
+<div class="container">
+<!-- Payment Method -->
+<div class="card">
+</div>
+<div class="card-body">
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="paymentMethod" id="paypal" value="paypal">
+  <label class="form-check-label" for="paypal">
+    PayPal
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="paymentMethod" id="Gpay" value="Gpay">
+  <label class="form-check-label" for="Gpay">
+    Gpay
+  </label>
+  
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="paymentMethod" id="card" value="card">
+    <label class="form-check-label" for="card">
+      Card
+    </label>
+  </div>
+<!-- More payment options -->
+<form>
+    <div class="mb-3">
+      <label for="cardNumber" class="form-label">Card Number</label>
+      <input type="text" class="form-control" id="cardNumber" placeholder="Enter card number">
+    </div>
+    <div class="mb-3">
+      <label for="expiryDate" class="form-label">Expiry Date</label>
+      <input type="text" class="form-control" id="expiryDate" placeholder="MM/YYYY">
+    </div>
+    <div class="mb-3">
+      <label for="cvv" class="form-label">CVV</label>
+      <input type="text" class="form-control" id="cvv" placeholder="CVV">
+    </div>
+    <!-- Additional fields as necessary -->
+    <button type="submit" class="btn btn-primary">Complete Purchase</button>
+  </form>
+</div>
+</div>
 </body>
 </html>
