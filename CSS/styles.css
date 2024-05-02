@@ -1,7 +1,7 @@
 /* Custom CSS */
 body {
     background-color: #f4f4f4;
-    padding-top: 70px; /* Ensure proper spacing for fixed navbar */
+     /* Ensure proper spacing for fixed navbar */
 }
 
 .login-form {
@@ -67,3 +67,10 @@ body {
 .form-group {
     margin-bottom: 20px;
 }
+.colorful-jumbotron {
+    background: linear-gradient(45deg, #ff6b6b, #ffa0a0, #ffd3d3, #b6f3f0, rgb(11, 179, 198));
+    color: black;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+  }
