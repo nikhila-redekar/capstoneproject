@@ -5,7 +5,7 @@
 }
 
 .homepage{
-background: linear-gradient(45deg, blue, #f9d83f, yellow, rgb(11, 179, 198));
+background: linear-gradient(45deg, blue, #f9d83f, yellow, rgb(11, 179, 198), blue);
     }
 .login-form {
     max-width: 400px;
@@ -79,7 +79,7 @@ background: linear-gradient(45deg, blue, #f9d83f, yellow, rgb(11, 179, 198));
     margin-bottom: 20px;
 }
 .colorful-jumbotron {
-    background: linear-gradient(yellow, #29C5F6, yellow, #29C5F6, blue ) ;      
+    background: linear-gradient(yellow, #29C5F6, blue ) ;      
     color: black;
     padding: 40px;
     border-radius: 10px;
@@ -115,6 +115,13 @@ background: linear-gradient(45deg, blue, #f9d83f, yellow, rgb(11, 179, 198));
     top: 100px;
     right: 10px;
 }
-.nav-link, .navbar-brand {
+.nav-link, .navbar-brand, .nav-item {
     font-size: 20px;
+}
+.container-text{
+    font-size: 20px;
+}
+.footer{
+    height: 80px;
+    background-color: #f9d83f;
 }
