@@ -5,7 +5,8 @@
 }
 
 .homepage{
-background: linear-gradient(45deg, blue, #f9d83f, yellow, rgb(11, 179, 198), blue);
+background-color: #f9d83f;
+    color: black;
     }
 .login-form {
     max-width: 400px;
@@ -79,7 +80,7 @@ background: linear-gradient(45deg, blue, #f9d83f, yellow, rgb(11, 179, 198), blu
     margin-bottom: 20px;
 }
 .colorful-jumbotron {
-    background: linear-gradient(yellow, #29C5F6, blue ) ;      
+    background: linear-gradient(rgb(15, 212, 247),rgb(12, 227, 227),black) ;      
     color: black;
     padding: 40px;
     border-radius: 10px;
@@ -124,4 +125,8 @@ background: linear-gradient(45deg, blue, #f9d83f, yellow, rgb(11, 179, 198), blu
 .footer{
     height: 80px;
     background-color: #f9d83f;
+}
+
+.fab{
+    padding-top: 20px!;
 }
