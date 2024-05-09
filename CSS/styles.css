@@ -127,6 +127,19 @@ background-color: #f9d83f;
     background-color: #f9d83f;
 }
 
-.fab{
-    padding-top: 20px!;
+.footer-col{
+    padding-top: 20px;
+}
+
+@media (max-width: 1026px) {
+    .footer{
+        height: 140px;
+        text-align: center;
+    }
+}
+.col-auto{
+    padding-top: 20px;
+}
+.login-form{
+    margin-bottom: 250px;
 }
